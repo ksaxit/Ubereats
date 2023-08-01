@@ -3,6 +3,7 @@
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 .head {
@@ -100,4 +101,125 @@ body {
   padding-top: 10px;
   font-family: 'Roboto', sans-serif;
   font-size: 13px;
+}
+
+.category {
+  height: 40px;
+  width: 100%;
+  border-bottom: 2px solid rgba(63, 62, 62, 0.418);
+  display: flex;
+  position: relative;
+  bottom: 165px;
+  padding-left: 81px;
+  padding-top: 25px;
+  gap: 50px;
+}
+
+.category-name {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  color:rgb(98, 98, 98);  
+}
+
+.category-name:hover {
+  color:rgba(50, 116, 48, 1); 
+  cursor: pointer;
+}
+
+#category-name {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  color:rgba(50, 116, 48, 1); 
+}
+
+.zakuski {
+  position: relative;
+  bottom: 186px;
+  padding-left: 81px;
+}
+
+.z {
+  position: relative;
+  top: 64px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0em;  
+}
+
+.blocks-zakuski {
+  position: relative;
+  top: 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.list {
+  border: 1px solid black;
+  width: 550px;
+  height: 160px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1px;
+  padding-left: 20px;
+}
+
+.list p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 21px;  
+  color: rgba(98, 98, 98, 1);
+}
+
+.list-img {
+  position: relative;
+  left: 350px;
+  bottom: 72.5px;
+  transition: 1s;
+}
+
+.list-img:hover {
+  transform: scale(1.2);
+}
+
+.list-img-1 {
+  position: relative;
+  left: 350px;
+  bottom: 38.5px;
+  transition: 1s;
+}
+
+.list-img-1:hover {
+  transform: scale(1.2);
+}
+
+.list-h5 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  position: relative;
+  bottom: 130px;
+}
+
+.list-1-h5 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  position: relative;
+  bottom: 96px;
+}
+
+.list:hover {
+  background: rgba(117, 117, 117, 0.2);
+  cursor: pointer;
 }
