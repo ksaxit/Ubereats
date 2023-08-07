@@ -79,6 +79,15 @@ body {
   color: rgba(98, 98, 98, 1);
 }
 
+#rest-block-img img {
+  transition: 1s;
+}
+
+#rest-block-img img:hover {
+  transform: rotate(360deg);
+  border-radius: 100px 100px;
+}
+
 .logo {
   text-align: center;
   position: relative;
@@ -492,4 +501,12 @@ select {
 #ref-up:hover {
   transform: rotate(360deg);
   border-radius: 100px 100px;
+}
+
+#footer {
+  margin-top: 350px;
+}
+
+.footer-grid select:hover {
+  color:green;
 }
