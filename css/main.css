@@ -510,3 +510,9 @@ select {
 .footer-grid select:hover {
   color:green;
 }
+
+
+#rest-block-img a {
+  text-decoration: none;
+  color:#000
+}
