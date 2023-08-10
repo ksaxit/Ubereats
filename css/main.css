@@ -90,9 +90,9 @@ body {
 
 .logo {
   text-align: center;
-  position: relative;
-  left: -578.38px;
-  top: 25px;
+  position: absolute;
+  padding-left: 81.36px;
+  padding-top: 25px;
   transition: 1s;
 }
 
@@ -101,10 +101,10 @@ body {
 }
 
 .submit {
-  position: relative;
+  position: absolute;
   width: 78px;
   height: 40px;
-  bottom: 5px;
+  bottom: 15px;
   left: 1200px;
 }
 
@@ -122,9 +122,9 @@ body {
 }
 
 .logo-2 {
-  position: relative;
+  position: absolute;
   left: 1320px;
-  bottom: 38px;
+  bottom: 23px;
 }
 
 .foto {
@@ -515,4 +515,159 @@ select {
 #rest-block-img a {
   text-decoration: none;
   color:#000
+}
+
+
+@media (max-width: 1288px) {
+  .header {
+    width: 100%;
+  }
+
+  .submit {
+    left: 930px;
+  }
+
+  .logo-2 {
+    left: 1050px;
+  }
+
+  .blocks-zakuski {
+    display:grid;
+    grid-template-columns: 1fr;
+  }
+
+  .ref-up {
+    left: 1000px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .submit {
+    left: 830px;
+  }
+
+  .logo-2 {
+    left: 950px;
+  }
+
+  .ref-up {
+    left: 900px;
+  }
+}
+
+@media (max-width: 1140px) {
+  .submit {
+    left: 740px;
+  }
+
+  .logo-2 {
+    left: 850px;
+  }
+
+  .ref-up {
+    left: 800px;
+  }
+}
+
+@media (max-width: 924px) {
+  .submit {
+    left: 640px;
+  }
+
+  .logo-2 {
+    left: 750px;
+  }
+
+  .ref-up {
+    left: 700px;
+  }
+  .footer-end {
+    gap: 20px
+  }
+}
+
+@media (max-width: 800px) {
+  .submit {
+    left: 530px;
+  }
+
+  .logo-2 {
+    left: 650px;
+  }
+
+  .ref-up {
+    left: 650px;
+  }
+  .ref-up-img {
+    height: 50px;
+  }
+
+  .category {
+    width: 100%;
+  }
+
+  .category-name {
+    font-size: 10px;
+  }
+  .footer-end {
+    gap: 20px
+  }
+}
+
+
+@media (max-width: 730px) {
+  .ref-up {
+    left: 600px;
+  }
+  
+  .footer-grid {
+    grid-template-columns: 400px 100px;
+  }
+  .footer-end {
+    gap: 20px
+  }
+
+  .end {
+    gap: 100px;
+  }
+}
+
+@media (max-width: 680px) {
+  .submit {
+    left: 450px
+  }
+
+  .logo-2 {
+    left: 560px;
+  }
+
+  .category {
+    gap: 30px
+  }
+
+  .footer-grid {
+    grid-template-columns: 300px 100px;
+  }
+
+  .ref-up {
+    left: 500px;
+  }
+}
+
+@media (max-width: 655px) {
+  .list {
+    width: 445px;
+    font-size: 12px;
+  }
+
+  .list-img{
+    left: 245px;
+    padding-top: 10px;
+  }
+
+  .list-img-1{
+    left: 245px;
+    padding-top: 10px;
+  }
+
 }
