@@ -671,3 +671,82 @@ select {
   }
 
 }
+/* samsung Galaxy a51/71 (412) */
+@media (max-width: 414px) {
+  .submit {
+    left: 250px;
+  }
+  .logo-2 {
+    left: 350px;
+  }
+  .logo {
+    padding-left: 30px;
+  }
+
+  .foto img {
+    height: 200px;
+  }
+
+  .block-foto {
+    height: 150px;
+    bottom: 140px;
+    width: 250px;
+    left: 20px;
+  }
+  .block-foto h1 {
+    font-size: 16px;
+    text-align: left;
+    padding-top: 10px;
+  }
+  .block-foto p{
+    font-size: 8px;
+    text-align: left;
+    top: 5px
+  }
+  .min {
+    width: 50px;
+    left: 170px;
+    bottom: 25px;
+  }
+  .category {
+    margin-top: 65px;
+    padding-left: 30px;
+  }
+  .category-name {
+    font-size: 7px;
+  }
+  #category-name {
+    font-size: 7px;
+  }
+  .zakuski {
+    padding-left: 10px;
+  }
+  .list {
+    width: 350px;
+  }
+  .list-img-1 {
+    width: 150px;
+    left: 200px
+  }
+  .list-img {
+    width: 150px;
+    left: 200px;
+    height: 164px;
+  }
+  #list-1 {
+    font-size: 10px;
+  } 
+  .footer {
+    padding-left: 10px;
+    width: 100%;
+  }
+  .footer-end {
+    grid-template-columns: 1fr;
+  }
+  .end {
+    gap: 30px;
+  }
+  .ref-up {
+    left: 350px
+  }
+}
