@@ -737,7 +737,7 @@ select {
     font-size: 10px;
   } 
   .footer {
-    padding-left: 10px;
+    padding-left: 5px;
     width: 100%;
   }
   .footer-end {
@@ -748,5 +748,51 @@ select {
   }
   .ref-up {
     left: 350px
+  }
+}
+
+@media (max-width: 390px){
+  .footer-grid {
+    grid-template-columns: 200px;
+  }
+  .ref-up {
+    left: 310px;
+  }
+}
+
+@media (max-width: 375px) {
+  .logo-2 {
+    left: 340px;
+  }
+  .category {
+    padding-left: 10px;
+  }
+  .zakuski {
+    padding-left: 2px;
+  }
+  .list {
+    width: 350px;
+    font-size: 11.5px;
+  }
+  .list-img-1 {
+    width: 150px;
+    left: 200px;
+  }
+  .list-img {
+    width: 150px;
+    left: 200px;
+    height: 164px;
+  }
+  #list-1 {
+    font-size: 11px;
+  } 
+  .footer-grid {
+    grid-template-columns: 200px;
+  }
+  .ref-up {
+    left: 310px;
+  }
+  .foto {
+    width: 100%;
   }
 }
