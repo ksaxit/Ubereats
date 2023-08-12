@@ -130,6 +130,7 @@ body {
 .foto {
   position: relative;
   top: 72px;
+  width: 100%;
 }
 
 .block-foto {
@@ -654,10 +655,26 @@ select {
   }
 }
 
-@media (max-width: 655px) {
+@media (max-width: 540px) {
+  .logo{
+    padding-left: 35px;
+  }
+
+  .submit {
+    left: 350px;
+  }
+  .logo-2 {
+    left: 470px;
+  }
   .list {
     width: 445px;
     font-size: 12px;
+  }
+  .category {
+    padding-left: 35px;
+  }
+  .zakuski {
+    padding-left: 35px;
   }
 
   .list-img{
@@ -668,6 +685,9 @@ select {
   .list-img-1{
     left: 245px;
     padding-top: 10px;
+  }
+  .ref-up {
+    left: 455px;
   }
 
 }
@@ -751,7 +771,7 @@ select {
   }
 }
 
-@media (max-width: 390px){
+@media (max-width: 393px){
   .footer-grid {
     grid-template-columns: 200px;
   }
@@ -794,5 +814,49 @@ select {
   }
   .foto {
     width: 100%;
+  }
+}
+
+@media (max-width: 280px) {
+  .logo img {
+    width: 60px;
+  }
+  .submit {
+    left: 140px;
+  }
+  .sub {
+    width: 60px;
+    font-size: 10px;
+  }
+  .logo-2 {
+    left: 230px;
+  }
+  .list {
+    width: 254px;
+  }
+  .list-img {
+    width: 100px;
+    height: 100px;
+    left: 155px;
+    top: -10px
+  }
+  .list-img-1 {
+    width: 100px;
+    height: 100px;
+    left: 155px;
+    top: 23px
+  }
+  .end h3{
+    font-size: 7px;
+  }
+  .category {
+    gap: 10px;
+  }
+  .ref-up {
+    left: 240px;
+  }
+  .ref-up img {
+    width: 30px;
+    height: 30px;
   }
 }
