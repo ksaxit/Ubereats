@@ -661,10 +661,10 @@ select {
   }
 
   .submit {
-    left: 350px;
+    left: 250px;
   }
   .logo-2 {
-    left: 470px;
+    left: 360px;
   }
   .list {
     width: 445px;
@@ -689,7 +689,37 @@ select {
   .ref-up {
     left: 455px;
   }
-
+  #text {
+    margin-left: 36px;
+    width: 300px;
+  }
+  #restaurant {
+    margin-left: 36px;
+  }
+  #rest-img {
+    padding-left: 7px;
+    grid-template-columns: 1fr;
+  }
+  #footer  {
+    padding-left: 36px;
+  }
+  #footer-grid {
+    grid-template-columns: 200px 100px;
+  }
+  #footer-grid select {
+    width: 150px;
+  }
+  #reference {
+    text-align: left;
+  }
+  #end {
+    
+    display: flex;
+    gap: 7px;
+  }
+  #end h3 {
+    font-size: 8px;
+  }
 }
 /* samsung Galaxy a51/71 (412) */
 @media (max-width: 414px) {
