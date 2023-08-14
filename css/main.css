@@ -527,6 +527,20 @@ select {
   .submit {
     left: 930px;
   }
+  #submit {
+    left: 1070px;
+  }
+
+  #logo-2 {
+    left: 1200px;
+  }
+  
+  #text {
+    width: 1150px;
+  }
+  #rest-img {
+    grid-template-columns: 1fr 1fr;
+  }
 
   .logo-2 {
     left: 1050px;
@@ -560,9 +574,21 @@ select {
   .submit {
     left: 740px;
   }
+  #submit {
+    left: 830px;
+  }
 
+  #logo-2 {
+    left: 940px;
+  }
   .logo-2 {
     left: 850px;
+  }
+  #text {
+    width: 890px;
+  }
+  #rest-img {
+    grid-template-columns: 1fr 1fr;
   }
 
   .ref-up {
@@ -577,6 +603,16 @@ select {
 
   .logo-2 {
     left: 750px;
+  }
+  #text {
+    width: 700px;
+  }
+  #rest-img {
+    grid-template-columns: 350px 1fr;
+  }
+
+  #rest-img img{
+    width: 320px
   }
 
   .ref-up {
@@ -595,6 +631,15 @@ select {
   .logo-2 {
     left: 650px;
   }
+  #text {
+    width: 600px;
+  }
+  #rest-img {
+    grid-template-columns: 300px 1fr;
+  }
+  #rest-img img{
+    width: 320px
+  }
 
   .ref-up {
     left: 650px;
@@ -612,6 +657,9 @@ select {
   }
   .footer-end {
     gap: 20px
+  }
+  #footer-grid {
+    grid-template-columns: 400px 100px;
   }
 }
 
@@ -661,10 +709,16 @@ select {
   }
 
   .submit {
-    left: 250px;
+    left: 350px;
+  }
+  #submit {
+    left: 370px;
   }
   .logo-2 {
-    left: 360px;
+    left: 460px;
+  }
+  #logo-2 {
+    left: 480px;
   }
   .list {
     width: 445px;
@@ -691,13 +745,13 @@ select {
   }
   #text {
     margin-left: 36px;
-    width: 300px;
+    width: 450px;
   }
   #restaurant {
     margin-left: 36px;
   }
   #rest-img {
-    padding-left: 7px;
+    padding-left: 120px;
     grid-template-columns: 1fr;
   }
   #footer  {
@@ -713,12 +767,14 @@ select {
     text-align: left;
   }
   #end {
-    
     display: flex;
     gap: 7px;
   }
   #end h3 {
     font-size: 8px;
+  }
+  #ref-up {
+    width: 70px;
   }
 }
 /* samsung Galaxy a51/71 (412) */
@@ -726,8 +782,17 @@ select {
   .submit {
     left: 250px;
   }
+  #submit {
+    left: 270px;
+  }
   .logo-2 {
     left: 350px;
+  }
+  #logo-2 {
+    left: 370px;
+  }
+  #text {
+    width: 350px;
   }
   .logo {
     padding-left: 30px;
@@ -799,6 +864,14 @@ select {
   .ref-up {
     left: 350px
   }
+  #ref-up {
+    width: 50px;
+    height: 50px;
+    left: 330px
+  }
+  #rest-img {
+    padding-left: 40px;
+  }
 }
 
 @media (max-width: 393px){
@@ -808,28 +881,51 @@ select {
   .ref-up {
     left: 310px;
   }
+  #ref-up {
+    width: 50px;
+    height: 50px;
+  }
+  #end {
+    display: grid;
+    grid-template-columns: 200px 200px;
+  }
 }
 
 @media (max-width: 375px) {
+  .submit {
+    left: 230px;
+  }
+  #submit {
+    left:240px;
+  }
   .logo-2 {
+    left: 320px;
+  }
+  #logo-2{
     left: 340px;
   }
+  #text {
+    width: 310px;
+  }
   .category {
-    padding-left: 10px;
+    padding-left: 5px;
   }
   .zakuski {
     padding-left: 2px;
   }
+  #rest-img img {
+    width: 300px
+  }
   .list {
-    width: 350px;
+    width: 335px;
     font-size: 11.5px;
   }
   .list-img-1 {
-    width: 150px;
+    width: 135px;
     left: 200px;
   }
   .list-img {
-    width: 150px;
+    width: 135px;
     left: 200px;
     height: 164px;
   }
@@ -842,9 +938,18 @@ select {
   .ref-up {
     left: 310px;
   }
+  #ref-up {
+    width: 50px;
+    height: 50px;
+  }
   .foto {
     width: 100%;
   }
+  #end {
+    display: grid;
+    grid-template-columns: 150px 200px;
+  }
+ 
 }
 
 @media (max-width: 280px) {
@@ -854,12 +959,18 @@ select {
   .submit {
     left: 140px;
   }
+  #submit {
+    left: 280px
+  }
   .sub {
     width: 60px;
     font-size: 10px;
   }
   .logo-2 {
     left: 230px;
+  }
+  #logo-2{
+    left: 360px;
   }
   .list {
     width: 254px;
@@ -876,11 +987,20 @@ select {
     left: 155px;
     top: 23px
   }
+  #rest-img {
+    padding-left: 36px;
+  }
+  #rest-img img {
+    width: 330px
+  }
   .end h3{
     font-size: 7px;
   }
   .category {
     gap: 10px;
+  }
+  #reference {
+    text-align: center;
   }
   .ref-up {
     left: 240px;
